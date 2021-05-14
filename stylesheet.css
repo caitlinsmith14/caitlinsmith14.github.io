@@ -1,0 +1,27 @@
+html {font-family: Georgia, Times, serif;
+      background-color: rgb(240,240,240);      position: relative;      padding: 0;
+      color: rgb(0,45,114);}#container {width: 80%;
+            background-color: white;            margin: 0px auto 0px auto;
+            text-align: justify;            padding: 10px;}a {text-decoration: none;}a:link {color: rgb(114,172,229);}a:visited {color: rgb(114,172,229);}a:hover {color: rgb(114,172,229);}ul.research a:link {color: rgb(0,45,114);}ul.research a:visited {color: rgb(0,45,114);}ul.research a:hover {color: rgb(114,172,229);}ul {padding: 0;}h1, h2, h3, h4, h5, h6, #menu, #header {font-family: Helvetica, Arial, sans-serif;                                        letter-spacing: -0.05em;
+                                        text-align: left;                                        color: rgb(0,45,114);}li {list-style-type: none;}#menu {text-align: center;
+       width: 100%;
+       border-top: 1px solid rgb(0,45,114);
+       border-bottom: 1px solid rgb(0,45,114);
+       height: 45px;
+       padding: 0;
+}ul.menulist {padding: 0;
+             display: inline-block;
+             margin-top: -0.6em;
+             margin-bottom: -0.6em;}ul.menulist li {float: left;
+                padding: 0 40px 0 40px;}ul.menulist a:link {color: rgb(0,45,114);}
+ul.menulist a:visited {color: rgb(0,45,114);}
+ul.menulist a:hover {color: rgb(114,172,229);
+                     text-decoration: none;}
+ul.menulist a.current {color: rgb(114,172,229);}#header {left: 0;
+         width: 100%;         color: rgb(0,45,114);
+         text-align: center;         padding: 0;}div.researchlist {text-align: center;}
+ul.research a, span.email {font-family: Helvetica, Arial, sans-serif;}ul.research {width: 80%;
+             display: inline-block;
+}ul.research li {border-top: 1px solid rgb(0,45,114);                padding-top: 20px;
+                padding-bottom: 20px;
+                text-align: justify;}ul.research li:first-child {border-top-style: none;                            padding-top: 0;}td {vertical-align: top;}td.year {width: 125px;         padding-bottom: 5px;         text-align: left;}p.citation {text-indent: -25px;           padding-left: 25px;}
