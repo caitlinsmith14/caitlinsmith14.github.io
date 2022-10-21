@@ -1,0 +1,5 @@
+Pattern_Name: hightrigger_noblock_saltation3
+Symbol	Constriction_Degree	Strength
+i+	4	500
+e	10	100000
+a	16	1
