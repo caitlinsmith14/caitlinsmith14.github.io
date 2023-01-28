@@ -26,20 +26,29 @@
 	</div>
 	<div id="menu">
 		<ul class="menulist">
-			<h2>
 				<li><a href="index.html">Home</a></li>
 				<li><a href="research.html" class="current">Research</a></li>
 				<li><a href="cv.html">CV</a></li>
-			</h2>
 		</ul>
 	</div>
 	<p>
 		My research aims to answer a fundamental question within phonology: which units of representation provide the best fit to the cross-linguistic phonological patterns that we observe? I focus primarily on investigating the advantages and insights gained by adopting sub-segmental units of representation known as gestures. One of the aims of my research involves the reanalysis of persistent theoretical puzzles in phonology within the framework of gestural phonology. I also work to build on some of the core representational concepts of gestural phonology. This includes modifying and expanding upon the established set of gestural parameters, proposing novel types of relations that exist between gestures, and developing a phonological grammar that operates over gestural representations.
 	</p>
 	<p>
-		On this page, you'll find some of my written work and conference presentation materials, organized thematically.
+		On this page, you'll find some of my written work and conference presentation materials, organized thematically. Click one of the tags below to jump directly to a section.
 	</p>
-	<h2>
+	<div id="tags">
+	    <ul class="taglist">
+	        <li><a href="#harmony">[ Harmony ]</a></li>
+	        <li><a href="#machinelearning">[ Machine Learning ]</a></li>
+	        <li><a href="#opacity">[ Opacity ]</a></li>
+	        <li><a href="#exceptionality">[ Phonological Exceptionality ]</a></li>
+	        <li><a href="#complexity">[ Computational Complexity ]</a></li>
+	        <li><a href="#mutation">[ Morphological Consonant Mutation ]</a></li> 
+	        <li><a href="#speechproduction">[ Speech Production ]</a></li>
+	    </ul>
+	</div>
+	<h2 id="harmony">
 		Harmony
 	</h2>
 	<p>
@@ -109,17 +118,19 @@
 			<a href="http://journals.linguisticsociety.org/proceedings/index.php/amphonology/article/view/3771">[ paper ]</a> <a href="pdf/smith_amp2014_poster.pdf">[ poster October 2014 ]</a> </li>
 		</ul>
 	</div>
-	<h2>
+	<h2 id="machinelearning">
 		Machine Learning
 	</h2>
 	<p>
-		Due to the gradient/continuous nature of many gestural parameters, gestural representations are quite powerful and are able to generate many patterns that may not be derivable within feature-based phonological frameworks. However, in order for a phonological pattern to be crosslinguistically attested, it must not only be derivable within a phonological framework, but also learnable within that framework. In collaboration with <a href="https://dornsife.usc.edu/ohara">Charlie O'Hara</a>, I have developed a learning algorithm to computationally model the acquisition of gestural parameters in order to shed light on which phonological patterns are learnable within the gestural phonology framework.
+		Due to the gradient/continuous nature of many gestural parameters, gestural representations are quite powerful and are able to generate many patterns that may not be derivable within feature-based phonological frameworks. However, in order for a phonological pattern to be crosslinguistically attested, it must not only be derivable within a phonological framework, but also learnable within that framework. In collaboration with <a href="https://charlieohara.github.io">Charlie O'Hara</a>, I have developed a learning algorithm to computationally model the acquisition of gestural parameters in order to shed light on which phonological patterns are learnable within the gestural phonology framework.
 	</p>
 	<p>
 		In addition, I have collaborated with several members of <a href="https://www.microsoft.com/en-us/research/research-area/artificial-intelligence/">Microsoft Research AI</a> on projects involving improving Transformer neural networks' performance by integrating tensor product representations and morphological segmentation.
 	</p>
 	<div class="researchlist">
 		<ul class="research">
+			<li>Smith, Caitlin, Charlie O'Hara (2022) Two Tools for Learning Gestural Parameters and Constraint Based Grammars. Talk presented at the Computational Approaches to Phonology workshop at the 2022 Annual Meeting on Phonology.<br><br>
+			<a href="pdf/smithohara_amp2022_slides.pdf">[ slides October 2022 ]</a> <a href="https://colab.research.google.com/drive/1-KG5rkVsaVWuMGsC4pXiBNL_WFs05_cm?usp=sharing">[ Google Colab GGLA]</a> <a href="https://colab.research.google.com/drive/1GzYWUVslGZuTIOtqLQJSOGUbx3a7d_EG?usp=sharing">[ Google Colab GGGLA]</a>
 			<li>Smith, Caitlin (2022) Grammar and Representation Learning for Opaque Harmony Processes (joint work with Charlie O'Hara). Invited talk presented at the Society for Computation in Linguistics.<br>
 			<br>
 			<a href="pdf/smith_scil2022_slides.pdf">[ slides February 2022 ]</a> <a href="https://github.com/caitlinsmith14/gggla">[ github ]</a> <a href="https://youtu.be/PfslQYuGcgk">[ video ]</a> </li>
@@ -143,11 +154,11 @@
 			<a href="pdf/smithohara_amp2020_poster.pdf">[ poster September 2020 ]</a> <a href="resource/smithohara_amp2020_video.mp4">[ video September 2020 ]</a> <a href="https://github.com/caitlinsmith14/ggla_height_harmony">[ github ]</a> </li>
 		</ul>
 	</div>
-	<h2>
+	<h2 id="opacity">
 		Opacity
 	</h2>
 	<p>
-		In cases of underapplication opacity, a phonological process does not occur when it 'should' have based on its structural description. While earlier rule-based phonological frameworks often dealt with opacity via extrinsic rule ordering, more recent attention has been paid to the inability of many versions of output-driven Optimality Theory and Harmonic Grammar to derive opaque patterns. In collaboration with <a href="">Charlie O'Hara</a>, I have shown that gestural phonology allows us to represent some seemingly opaque processes as derivationally transparent. Furthermore, we have shown that the mechanisms that drive apparent opacity in gestural phonology correctly predict typological asymmetries between chain shifts and saltations, two types of underapplication opacity.
+		In cases of underapplication opacity, a phonological process does not occur when it 'should' have based on its structural description. While earlier rule-based phonological frameworks often dealt with opacity via extrinsic rule ordering, more recent attention has been paid to the inability of many versions of output-driven Optimality Theory and Harmonic Grammar to derive opaque patterns. In collaboration with <a href="https://charlieohara.github.io">Charlie O'Hara</a>, I have shown that gestural phonology allows us to represent some seemingly opaque processes as derivationally transparent. Furthermore, we have shown that the mechanisms that drive apparent opacity in gestural phonology correctly predict typological asymmetries between chain shifts and saltations, two types of underapplication opacity.
 	</p>
 	<div class="researchlist">
 		<ul class="research">
@@ -180,14 +191,17 @@
 			<a href="pdf/smith_pphf2019_slides.pdf">[ slides April 2019 ]</a> </li>
 		</ul>
 	</div>
-	<h2>
+	<h2 id="exceptionality">
 		Phonological Exceptionality
 	</h2>
 	<p>
-		Phonological exceptionality refers to cases in which individual segments or lexical items pattern in an idiosyncratic or unpredictable way with respect to one or more phonological processes. My research in this area gives gestural parameters, including gestural self-(de)activation and blending strength, expanded roles as not only sources of coarticulatory influence but also as phonologically active elements of representation. These gestural parameters can be used to reanalyze cases of phonological idiosyncrasy previously thought to be the result of absolute surface neutralization, derivational opacity, or lexical exceptionality. Portions of this work have been conducted in collaboration with <a href="http://reedblaylock.com/">Reed Blaylock</a>.
+		Phonological exceptionality refers to cases in which individual segments or lexical items pattern in an idiosyncratic or unpredictable way with respect to one or more phonological processes. My research in this area gives gestural parameters, including gestural self-(de)activation and blending strength, expanded roles as not only sources of coarticulatory influence but also as phonologically active elements of representation. These gestural parameters can be used to reanalyze cases of phonological idiosyncrasy previously thought to be the result of absolute surface neutralization, derivational opacity, or lexical exceptionality. Portions of this work have been conducted in collaboration with <a href="http://reedblaylock.com/">Reed Blaylock</a>. I have also pursued work in collaboration with <a href="https://hsub.web.unc.edu">Brian Hsu</a> analyzing phonological idiosyncrasy within the framework of Gradient Harmonic Grammar.
 	</p>
 	<div class="researchlist">
 		<ul class="research">
+			<li>Hsu, Brian, Caitlin Smith (2022) Idiosyncratic Hiatus Resolution: An Argument for Gradient Harmonic Grammar. Poster presented at the 2022 Annual Meeting on Phonology.<br>
+			<br>
+			<a href="pdf/hsusmith_amp2022_poster.pdf">[ poster October 2022 ]</a> <a href="https://ling.auf.net/lingbuzz/007088">[ paper (preprint) ]</a></li>
 			<li>Smith, Caitlin (2020) Phonological Idiosyncrasy as Contrastive Gestural Strength. Invited talk presented at the <em>Situating Contrast within the Production-Perception Loop</em> workshop at LabPhon 17.<br>
 			<br>
 			<a href="pdf/smith_labphon17_slides.pdf">[ slides July 2020 ]</a> </li>
@@ -211,11 +225,11 @@
 			<a href="pdf/smith_nels47_paper.pdf">[ paper ]</a> <a href="pdf/smith_nels47_poster.pdf">[ poster October 2016 ]</a> </li>
 		</ul>
 	</div>
-	<h2>
+	<h2 id="complexity">
 		Computational Complexity
 	</h2>
 	<p>
-		Formal language theory provides a way of hierarchically classifying phonological patterns according to their relative degrees of computational complexity. In collaboration with <a href="https://dornsife.usc.edu/ohara">Charlie O'Hara</a> and <a href="http://blogs.umass.edu/alamont/">Andrew Lamont</a>, I have investigated how the formal complexity of different types of mappings, especially those involving featural and tonal spreading, affects cross-linguistic typological patterns. In particular, we focus on determining the upper bound on the complexity of attested spreading patterns.<br>
+		Formal language theory provides a way of hierarchically classifying phonological patterns according to their relative degrees of computational complexity. In collaboration with <a href="https://charlieohara.github.io">Charlie O'Hara</a> and <a href="https://aphonologist.github.io">Andrew Lamont</a>, I have investigated how the formal complexity of different types of mappings, especially those involving featural and tonal spreading, affects cross-linguistic typological patterns. In particular, we focus on determining the upper bound on the complexity of attested spreading patterns.<br>
 	</p>
 	<div class="researchlist">
 		<ul class="research">
@@ -233,7 +247,7 @@
 			<a href="pdf/oharasmith_scamp2018_slides.pdf">[ slides April 2018 ]</a> </li>
 		</ul>
 	</div>
-	<h2>
+	<h2 id="mutation">
 		Morphological Consonant Mutation
 	</h2>
 	<p>
@@ -246,7 +260,7 @@
 			<a href="pdf/smith_cls50_paper.pdf">[ paper ]</a> <a href="pdf/smith_cls50_handout.pdf">[ handout April 2014 ]</a> </li>
 		</ul>
 	</div>
-	<h2>
+	<h2 id="speechproduction">
 		Speech Production
 	</h2>
 	<p>
